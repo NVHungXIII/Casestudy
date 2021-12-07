@@ -11,8 +11,29 @@
 }
 
 body{
+    background-image: url(./Img/Site-background-dark.jpg);
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.logo {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;  
+}
+
+.content {
     height: 100vh;
-    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +82,7 @@ img {
 
 .card__social a {
     color: white;
-    margin: 50px 40px;
+    margin: 25px 20px;
 }
 
 .card__social a:hover {
